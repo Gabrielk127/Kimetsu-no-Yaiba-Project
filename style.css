@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --ff-all: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(46, 45, 45);
+    margin: 5rem;
+}
+
+#app {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+nav {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(38, 14, 59);
+    /* background-color: rgb(53, 184, 140); */
+    padding: 2rem;
+    border-radius: 2rem;
+
+    margin-bottom: 10rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.navbar li {
+    display: flex;
+    align-items: center;
+}
+
+.navbar li #img1 {
+    width: 5.5rem;
+}
+
+.navbar li img {
+    width: 8.5rem;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    font-family: var(--ff-all);
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+a:hover {
+    scale: 1.1;
+}
+
+
+.card-list ul {
+    background-color: white;
+    width: 23rem;
+    border-radius: 2rem;
+
+    list-style: none;
+    background-color: rgb(94, 40, 145);
+}
+
+.card img {
+    width: 23rem;
+}
+
+.details {
+    margin: 1rem;
+}
+
+.card p {
+    font-family: var(--ff-all);
+    font-size: 1.1rem;
+    color:rgb(46, 45, 45);
+}
+
+.card h3 {
+    font-family: var(--ff-all);
+    font-weight: bold;
+
+    margin-top: -1rem;
+    font-size: 3rem;
+}
